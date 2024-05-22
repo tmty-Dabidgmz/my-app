@@ -20,8 +20,8 @@ export class EditableTableComponent {
     const keyboardEvent = event as KeyboardEvent; 
     if (keyboardEvent.key === 'Enter') {
       keyboardEvent.preventDefault();
-      console.log('Actualizando descripción para:', item.nombre);
-      console.log('Nueva descripción:', item.descripcion);
+      console.log('Actualizando descripción :', item.nombre);
+      console.log('Nueva descripción :', item.descripcion);
       (keyboardEvent.target as HTMLElement).blur();
     }
   }
