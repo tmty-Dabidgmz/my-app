@@ -1,3 +1,9 @@
 import { Routes } from '@angular/router';
-
-export const routes: Routes = [];
+import { EditableTableComponent } from './editable-table/editable-table.component';
+export const routes: Routes = [
+    {
+        path: 'table',
+        component: EditableTableComponent,
+        title: 'table',
+    }
+];
