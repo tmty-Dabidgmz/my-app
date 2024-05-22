@@ -11,9 +11,9 @@ import { FormsModule } from '@angular/forms';
 })
 export class EditableTableComponent {
   data = [
-    { nombre: 'Elemento 1', descripcion: 'Descripción 1', edad: 25 },
-    { nombre: 'Elemento 2', descripcion: 'Descripción 2', edad: 30 },
-    { nombre: 'Elemento 3', descripcion: 'Descripción 3', edad: 35 }
+    { nombre: 'Nombre01', descripcion: 'Descripción 1', edad: 25 },
+    { nombre: 'Nombre02', descripcion: 'Descripción 2', edad: 30 },
+    { nombre: 'Nombre03', descripcion: 'Descripción 3', edad: 35 }
   ];
 
   updateDescription(item: any, event: Event) {
